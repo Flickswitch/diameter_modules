@@ -1,0 +1,3 @@
+%{
+  "mix_dia_compiler": {:hex, :mix_dia_compiler, "0.2.0", "e3acbc6e1ce114f4dbca978a2c59eb2b90ca5caf8b47c15a1a1c5b2876133cbd", [:mix], [], "hexpm", "8732996312601c87d61004c7ad60cbe417233cfa81a6e6379e63f84bd72df9e3"},
+}
