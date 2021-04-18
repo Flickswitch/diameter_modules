@@ -7,8 +7,10 @@ defmodule DiameterModules.MixProject do
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
-      compilers: [:dia] ++ Mix.compilers(),
-      elixirc_paths: ["dia", "lib"],
+      # compilers: [:dia] ++ Mix.compilers(),
+      compilers: Mix.compilers(),
+      # elixirc_paths: ["dia", "lib"],
+      elixirc_paths: ["lib"],
       deps: deps()
     ]
   end
